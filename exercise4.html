@@ -1,19 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>excercise #4</title>
+	<title>exercise #2:Subscription form</title>
+	<link rel="stylesheet" type="text/css" href="exercises4.css">
 </head>
 <body>
-	<ul>
-		<li>Apples</li>
-		<li>Oranges 
-			<ol><li>Orange A</li>
-				<li>Orange B</li>
-				<li>Orange C</li></ol></li>
+	<form>
+	<fieldset >
+		<legend ">
+Personal Details </legend>
 
-				<li>Bannans</li>
+		<label>First Name<input type="text" name="firstname"></label><br>
+		<label>Last Name<input type="text" name="lastname"></label><br>
+		<label>E-Mail<input type="email" name="email"><br>
+		<label>Gender:<input type="radio" name="html" value="Male">Male
+	<input type="radio" name="html" value="Femail" > Femail</label><br>
+	
+	</fieldset>
+	</form>
+	
+	<br>
+	<form style="text-align: left;">
+	<fieldset >
+		<legend>
+		Magazines</legend>
+	
+		<input type="checkbox" name="">Stavanger Aftenblad<br>
+		<input type="checkbox" name="">Teknisk Ukeblad<br>
+		<input type="checkbox" name="">So og H&oslash;r<br>
+ 		<input type="checkbox" name="">Familien<br><br>
+</fieldset>
+</form>
+<br>
 
-	</ul>
+<form>
+<fieldset>
+		<legend >
+		Subscribe</legend>
+ 		<label>Period <select>
+ 			<option>6 months</option><
+ 			<option>12 months</option>
+ 			<option>18 months</option>
+ 			<OPTION>24 months</OPTION></label>
+ 		</select>
+ 		</fieldset>
+</form>
+ 		<br>
+ 		<button  type="submit">Subscribe</button>
+
+ 
 
 </body>
 </html>
