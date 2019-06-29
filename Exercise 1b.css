@@ -1,0 +1,30 @@
+body {
+	background-color:  #f0f8ff;
+}
+div {
+	background-color: white;
+	width: 75%;
+	min-width: 500px;
+	border: 1px solid #333333;
+	margin:0.5em;
+	box-shadow:3px 5px #888888;
+	border-radius: 15px;
+	padding: 15px;
+  
+   
+  
+
+
+}
+.span1 {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	background-color: #fdfd96;
+	font-weight: bold;
+}
+.span2 {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	background-color: #fdca96;
+	font-weight: bold;
+}

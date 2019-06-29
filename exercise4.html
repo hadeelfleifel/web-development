@@ -1,54 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>exercise #2:Subscription form</title>
-	<link rel="stylesheet" type="text/css" href="exercises4.css">
+    <title>Exercise #4: Selectors</title>
+    <link rel="stylesheet" href="exercise4.css"/>
 </head>
 <body>
-	<form>
-	<fieldset >
-		<legend ">
-Personal Details </legend>
+<div>
+    <p>
+        There is some text <a class="green" href="#">with a link</a> in it.
+    </p>
 
-		<label>First Name<input type="text" name="firstname"></label><br>
-		<label>Last Name<input type="text" name="lastname"></label><br>
-		<label>E-Mail<input type="email" name="email"><br>
-		<label>Gender:<input type="radio" name="html" value="Male">Male
-	<input type="radio" name="html" value="Femail" > Femail</label><br>
-	
-	</fieldset>
-	</form>
-	
-	<br>
-	<form style="text-align: left;">
-	<fieldset >
-		<legend>
-		Magazines</legend>
-	
-		<input type="checkbox" name="">Stavanger Aftenblad<br>
-		<input type="checkbox" name="">Teknisk Ukeblad<br>
-		<input type="checkbox" name="">So og H&oslash;r<br>
- 		<input type="checkbox" name="">Familien<br><br>
-</fieldset>
-</form>
-<br>
+    <p>
+        Second paragraph with a <a class="green" href="#">link</a>.
+    </p>
+</div>
+<div>
+    <p>
+        Third paragraph (<a class="linkk" href="#">link</a> too, yes).
+    </p>
+</div>
 
-<form>
-<fieldset>
-		<legend >
-		Subscribe</legend>
- 		<label>Period <select>
- 			<option>6 months</option><
- 			<option>12 months</option>
- 			<option>18 months</option>
- 			<OPTION>24 months</OPTION></label>
- 		</select>
- 		</fieldset>
-</form>
- 		<br>
- 		<button  type="submit">Subscribe</button>
-
- 
-
+<ul>
+    <li class="boldd">First <a class="red" href="#">link</a></li>
+    <li>Second
+        <ul class="lst">
+            <li class="boldd">111</li>
+            <li>222 <a class="red" href="#">link</a></li>
+            <li>333
+                <ul class="noneee">
+                    <li class="boldd">red</li>
+                    <li>green</li>
+                    <li>blue <a class="red" href="#">link</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>Third</li>
+    <li>Fourth</li>
+</ul>
 </body>
 </html>
