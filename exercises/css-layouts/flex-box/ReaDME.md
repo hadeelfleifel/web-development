@@ -1,4 +1,4 @@
-# CSS layout exercises, Part III. (flexbox-layout)
+# CSS layout exercises, Part I. (flexbox-layout)
 
 ## Exercise #1: Simple flexbox Layout
 
