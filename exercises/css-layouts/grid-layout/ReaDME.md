@@ -43,7 +43,7 @@ Make a simple grid layout page, the page should :
   - You should use only a grid layout.  
   - You are free to choose any style you want. 
   
-![Exercise5](images/exercise-5.png)
+![Exercise5](images/exercise-4.png)
 
 
 ## Exercise #5: 12 Column Grids [horizontal ]
