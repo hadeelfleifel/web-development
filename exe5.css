@@ -1,0 +1,180 @@
+ body {background-color: pink;}
+.container{
+	display: grid;
+  grid-template-areas:
+    'header header header header header header header header header header header header'
+    'menu menu menu menu menu menu main main main main main main'
+    'right1 right1 right1 right1 right2 right2 right2 right2 right3 right3 right3 right3'
+    'header1 header1 header1 header2 header2 header2 header3 header3 header3 header4 header4 header4'
+    'footer1 footer1 footer2 footer2 footer3 footer3 footer4 footer4 footer5 footer5 footer6 footer6'
+    'menu1 menu2 menu3 menu4 menu5 menu6 menu7 menu8 menu9 menu10 menu11 menu12';
+  	
+  grid-gap: 10px;
+ 
+}
+.div1{
+grid-area: header;
+	 border: 1px solid black;
+	 background-color: yellow;
+}
+
+.div2{
+	grid-area:menu;
+	border: 1px solid black;
+	background-color: yellow;
+
+}
+.div3{
+	 grid-area:main;
+	 border: 1px solid black;
+	 background-color: yellow;
+
+}
+
+.div4{
+	 grid-area: right1;
+	 border: 1px solid black;
+	 background-color: yellow;
+
+}
+.div5{
+	grid-area:right2;
+		 border: 1px solid black;
+	 background-color: yellow;
+
+}
+.div6{
+	grid-area:right3;
+		 border: 1px solid black;
+	 background-color: yellow;
+}
+.div7{
+	 grid-area: header1;
+	 border: 1px solid black;
+	 background-color: yellow;
+
+}
+.div8{
+	grid-area:header2;
+		 border: 1px solid black;
+	 background-color: yellow;
+
+}
+.div9{
+	 grid-area:header3;
+	 border: 1px solid black;
+	 background-color: yellow;
+
+}
+.div10{
+	 grid-area:header4;
+	 border: 1px solid black;
+	 background-color: yellow;
+
+}
+.div11{
+	grid-area:footer1;
+		 border: 1px solid black;
+	 background-color: yellow;
+
+}
+.div12{
+	grid-area:footer2;
+		 border: 1px solid black;
+	 background-color: yellow;
+}
+.div13{
+	 grid-area:footer3;
+	 border: 1px solid black;;
+	 background-color: yellow;
+
+}
+.div14{
+	grid-area:footer4;
+		 border: 1px solid black;
+	 background-color: yellow;
+
+}
+.div15{
+	 grid-area:footer5;
+	 border: 1px solid black;
+	 background-color: yellow;
+
+}
+.div16{
+	 grid-area:footer6;
+	 border: 1px solid black;
+	 background-color: yellow;
+
+}
+.div17{
+	grid-area:menu1;
+		 border: 1px solid black;
+	 background-color: yellow;
+
+}
+.div18{
+	grid-area:menu2;
+		 border: 1px solid black;
+	 background-color: yellow;
+}
+.div19{
+	 grid-area: menu3;
+	 border: 1px solid black;
+	 background-color: yellow;
+
+}
+.div20{
+	grid-area:menu4;
+		 border: 1px solid black;
+	 background-color: yellow;
+
+}
+.div21{
+	 grid-area:menu5;
+	 border: 1px solid black;
+	 background-color: yellow;
+
+}
+.div22{
+	 grid-area:menu6;
+	 border: 1px solid black;
+	 	 background-color: yellow;
+
+}
+.div23{
+	grid-area:menu7;
+		 border: 1px solid black;
+	 background-color: yellow;
+
+}
+.div24{
+	grid-area:menu8;
+		 border: 1px solid black;
+	 background-color: yellow;
+
+}
+.div25{
+	 grid-area:menu9;
+	 border: 1px solid black;
+	 background-color: yellow;
+
+}
+.div26{
+	 grid-area:menu10;
+	 border: 1px solid black;
+	 	 background-color: yellow;
+
+}
+.div27{
+	grid-area:menu11;
+		 border: 1px solid black;
+	 background-color: yellow;
+
+}
+.div28{
+	grid-area:menu12;
+		 border: 1px solid black;
+	 background-color: yellow;
+
+}

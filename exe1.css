@@ -1,0 +1,28 @@
+
+.parent {
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-auto-rows: 480px;
+	margin: 0;
+
+	
+}
+.div1 {
+background-color: green;
+text-align: center;
+}
+.div2 {
+background-color: pink;
+text-align: center;
+
+}
+.div3 {
+background-color: red;
+text-align: center;
+
+}
+.div4{
+background-color: yellow;
+text-align: center;
+
+}

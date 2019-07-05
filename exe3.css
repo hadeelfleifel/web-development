@@ -1,0 +1,30 @@
+.parent{
+	display: grid;
+	grid-template-columns:300px 600px;
+	background-color: #ede6e6;
+	width: 900px;
+}
+.item1 {
+  grid-row: 1 / 4;
+  background-color: white;
+  margin: 10px;
+}
+.sec{
+	grid-template-columns: 1fr;
+margin: 10px;
+width:550px;
+}
+textarea{
+	width: 250px;
+	height: 250px;
+	margin: 10px;
+
+}
+input{
+	width: 450px;
+	height: 30px;
+}
+button{
+	width: 454px;
+	text-align: center;
+}

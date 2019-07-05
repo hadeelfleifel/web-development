@@ -1,0 +1,47 @@
+body {background-color: pink;}
+.container{
+	 display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main main right'
+    'menu footer footer footer footer footer';
+    width: 100%;
+    height:800px;
+    grid-gap: 20px;
+}
+.header{
+	 grid-area: header;
+	 border: 1px solid black;
+	 height: 70px;
+	 background-color: yellow;
+
+}
+.nav{
+	grid-area: menu;
+		 border: 1px solid black;
+	 background-color: yellow;
+
+}
+.article{
+	grid-area: main;
+		 border: 1px solid black;
+		 		 height: 730px;
+	 background-color: yellow;
+
+
+}
+.ads{
+	grid-area: right;
+			 border: 1px solid black;
+			 		 height: 730px;	 background-color: yellow;
+
+
+
+}
+.footer{
+	grid-area:footer;
+			 border: 1px solid black;
+			 height: 70px;
+	 background-color: yellow;
+
+}
