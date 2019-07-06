@@ -1,30 +1,20 @@
-.parent{
-	display: grid;
-	grid-template-columns:300px 600px;
-	background-color: #ede6e6;
-	width: 900px;
+body{
+display: flex;
+  flex-flow:column wrap;
+  height: 1024px;
+  width: 100%;
+  background-color: red;
+  padding: 15px;
 }
-.item1 {
-  grid-row: 1 / 4;
-  background-color: white;
-  margin: 10px;
-}
-.sec{
-	grid-template-columns: 1fr;
-margin: 10px;
-width:550px;
-}
-textarea{
-	width: 250px;
-	height: 250px;
-	margin: 10px;
+div {
+	padding: 15px;
 
 }
-input{
-	width: 450px;
-	height: 30px;
+article {
+width: 350px;
+background-color: white;
 }
-button{
-	width: 454px;
-	text-align: center;
+*{
+	margin: 0;
+	padding: ;
 }

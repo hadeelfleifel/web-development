@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercise #2: Pagniation</title>
+<style>
+.pagination {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  background-color: white;
+  width: 700px;
+  height: 300px;
+ margin: 0 auto;
+}
+.paginationn{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  background-color:#74dbd6;
+  border: 1px solid gray;
+  font-size: 22px;
+
+}
+
+.pagination a.active {
+  color: block;
+  border: 2px solid black;
+}
+
+</style>
+</head>
+<body style="background-color: #74dbd6;">
+
+
+<div class="pagination">
+	<h2>Responsive Pagination </h2>
+<p>I am a responsive page link menu built with flex!</p>
+<div class="paginationn" >
+  <a href="#">&laquo;</a>
+  <a href="#">1</a>
+  <a href="#" class="active">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <a href="#">6</a>
+    <a href="#">7</a>
+      <a href="#">8</a>
+        <a href="#">9</a>
+          <a href="#">10</a>
+  <a href="#">&raquo;</a>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,13 +1,59 @@
- td {
-  padding: 5px;
-  box-shadow: 5px 10px #888888;
-
+#color{
+            background: linear-gradient(-218deg,#c3c3c3, white 55%, #d4068f 55%);
+            border: 1px solid #c3c3c3;
+        }
+        .divv{
+        	display: flex;flex-direction: row-reverse;
+        }
+div{
+	width: 90%;
+	height: 300px;
+	margin-right: 52px;
 }
-table {
 
-	border: 1px solid;
-  border-spacing: 10px;
-
-
+.div1,.div2{
+	display: flex;
+	margin-bottom: 30px;
+	width: 100%;
+}
+body{
+	width:95%;
+	margin-top: 50px;
+	background-color: #f2c4ef;
+	
 }
 
+
+.img1{
+	width:90px;
+	height: 80px;
+	display: flex; 
+	 margin-right: 50%;
+	 margin-left: 34%;
+	 margin-top: 26%;
+}
+.img2{
+	width: 100px;
+	height:85px;
+	display: flex; 
+	 margin-right: 50%;
+	 margin-left: 41%;
+	 margin-top: 12%;
+	}
+.p1 {
+	position: absolute;
+	padding: 115px;
+	padding-top: inherit;
+}
+.p2{
+	
+	padding-top: inherit;
+padding-left: 43%;}
+pre {
+	top: 0%;
+	right: 100%;
+}
+section{
+	display: flex;
+	flex-direction: row-reverse;
+}
