@@ -10,6 +10,5 @@
 
 
 
- let q="Why couldn't the shoes go out and play?";
-let a="They were all "tied" up!";
-console.log(q \n\t a);
+let q="Why couldn't the shoes go out and play? \n They were all 'tied' up!";
+console.log (q);
