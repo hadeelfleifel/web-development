@@ -2,6 +2,8 @@
  * display the larger.Go to the editor */
 /******* Start Your Code *********/
   
+
+
  /******* End Your Code ********* */
 
 /* 2. Write a JavaScript conditional statement to find the sign
@@ -11,6 +13,8 @@ Sample numbers : 3, -7, 2
 Output : The sign is - */
 /******* Start Your Code *********/
   
+
+
  /******* End Your Code ********* */
 
 /* 3. Write a JavaScript conditional statement to sort three numbers. Display an alert box to show the result. Go to the editor 
@@ -30,15 +34,10 @@ Output : 0 */
   
  /******* End Your Code ********* */
 
- /* 5.Fix the if statement to display "Hello World" if x is greater than y, otherwise alert "Goodbye".*/
+ /* 5.Write the if statement to display "Hello World" if x is greater than y, otherwise alert "Goodbye".*/
 /******* Start Your Code *********/
   
  /******* End Your Code ********* */
 
-
-/*write the if statement to display "Hello World" if x is greater than y.*/
-/******* Start Your Code *********/
-  
- /******* End Your Code ********* */
 
 
