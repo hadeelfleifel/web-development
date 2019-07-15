@@ -22,7 +22,15 @@ Ex: subtract(2); => 2 - 1 - 0 => 1
 Ex: subtract(5); => 5 - 4 - 3 - 2 - 1 - 0 => -5
 Ex: subtract(9); => 9 - 8 - 7 - 6 - 5 - 4 - 3 - 2 - 1 - 0 => -27
 */
+function subtract (m){
+i=1;
+sum=m;
+while (i>0&& i<m){
+sum=sum+i;
+i++;
+}return sum;
 
+}console.log(subtract(5));
 
 /*
 2
@@ -33,7 +41,13 @@ Ex: factorial(2); => 2 * 1 => 2
 Ex: factorial(4); => 4 * 3 * 2 * 1 => 24
 */
 
-
+function factorial (s){
+i=1;
+while(i<s){
+s=s×i;
+i++;
+}
+}console.log(factorial(5));
 /*
 3
 Create a function called repeatStr
@@ -45,7 +59,13 @@ Important: the continue condition should be [somthing !== 0]
 Ex: repeatStr("to",2); => "to to"
 Ex: repeatStr("to",4); => "to to to to"
 */
+function repeatStr (str,num){
+i=0;
+While (i<=num){
+return str;
+i++;}
 
+}console.log(repeatStr("hi"));
 
 /*
 4
